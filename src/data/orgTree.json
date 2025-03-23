@@ -1,41 +1,82 @@
 {
-    "name": "CEO",
+    "name": "John Doe",
+    "attributes": {
+        "position": "CEO",
+        "department": "Executive"
+    },
     "children": [
         {
-            "name": "VP of Marketing",
+            "name": "Alice Smith",
+            "attributes": {
+                "position": "VP of Engineering",
+                "department": "Engineering"
+            },
             "children": [
                 {
-                    "name": "Marketing Manager 1"
+                    "name": "Bob Johnson",
+                    "attributes": {
+                        "position": "Engineering Manager",
+                        "department": "Software"
+                    },
+                    "children": []
                 },
                 {
-                    "name": "Marketing Manager 2"
+                    "name": "Carol White",
+                    "attributes": {
+                        "position": "Engineering Manager",
+                        "department": "Hardware"
+                    },
+                    "children": []
                 }
             ]
         },
         {
-            "name": "VP of Sales",
+            "name": "David Brown",
+            "attributes": {
+                "position": "VP of Sales",
+                "department": "Sales"
+            },
             "children": [
                 {
-                    "name": "Sales Manager 1"
+                    "name": "Eve Adams",
+                    "attributes": {
+                        "position": "Sales Manager",
+                        "department": "Domestic"
+                    },
+                    "children": []
                 },
                 {
-                    "name": "Sales Manager 2"
+                    "name": "Frank Wilson",
+                    "attributes": {
+                        "position": "Sales Manager",
+                        "department": "International"
+                    },
+                    "children": []
                 }
             ]
         },
         {
-            "name": "VP of Engineering",
+            "name": "Grace Taylor",
+            "attributes": {
+                "position": "VP of Marketing",
+                "department": "Marketing"
+            },
             "children": [
                 {
-                    "name": "Engineering Manager",
-                    "children": [
-                        {
-                            "name": "Software Engineer 1"
-                        },
-                        {
-                            "name": "Software Engineer 2"
-                        }
-                    ]
+                    "name": "Henry Clark",
+                    "attributes": {
+                        "position": "Marketing Manager",
+                        "department": "Digital"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "Ivy Martinez",
+                    "attributes": {
+                        "position": "Marketing Manager",
+                        "department": "Traditional"
+                    },
+                    "children": []
                 }
             ]
         }
