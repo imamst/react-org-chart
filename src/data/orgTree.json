@@ -1,0 +1,43 @@
+{
+    "name": "CEO",
+    "children": [
+        {
+            "name": "VP of Marketing",
+            "children": [
+                {
+                    "name": "Marketing Manager 1"
+                },
+                {
+                    "name": "Marketing Manager 2"
+                }
+            ]
+        },
+        {
+            "name": "VP of Sales",
+            "children": [
+                {
+                    "name": "Sales Manager 1"
+                },
+                {
+                    "name": "Sales Manager 2"
+                }
+            ]
+        },
+        {
+            "name": "VP of Engineering",
+            "children": [
+                {
+                    "name": "Engineering Manager",
+                    "children": [
+                        {
+                            "name": "Software Engineer 1"
+                        },
+                        {
+                            "name": "Software Engineer 2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
